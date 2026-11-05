@@ -1,0 +1,21 @@
+<section class="container py-5">
+  <div class="card shadow-sm">
+    <div class="row g-0 align-items-center">
+      <div class="col-md-4 text-center p-4">
+        <img src="assets/img/profile.png" alt="Fotografía de perfil"
+             class="img-fluid rounded-circle" width="200">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">{{ perfil.nombre }}</h2>
+          <ul class="list-unstyled mb-0">
+            <li><i class="bi bi-envelope"></i> {{ perfil.email }}</li>
+            <li><i class="bi bi-telephone"></i> {{ perfil.telefono }}</li>
+            <li><i class="bi bi-geo-alt"></i> {{ perfil.direccion }}</li>
+            <li><i class="bi bi-calendar-event"></i> {{ perfil.nacimiento }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

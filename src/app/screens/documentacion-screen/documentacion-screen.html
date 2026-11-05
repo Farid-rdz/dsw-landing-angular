@@ -1,0 +1,30 @@
+<section class="container py-5">
+  <h2 class="mb-3">Documentación</h2>
+  <a class="btn btn-primary mb-4" [href]="urlDocumentacion"
+     target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-box-arrow-up-right"></i> Documentación oficial de Angular
+  </a>
+  <div id="carruselTecnologias" class="carousel slide bg-dark rounded">
+    <div class="carousel-inner py-4">
+      @for (d of diapositivas; track d.titulo) {
+        <div class="carousel-item" [class.active]="$first">
+          <img [src]="d.imagen" [alt]="d.titulo" height="220"
+               class="d-block mx-auto">
+          <div class="carousel-caption position-static pt-3">
+            <h3 class="h5">{{ d.titulo }}</h3>
+          </div>
+        </div>
+      }
+    </div>
+    <button class="carousel-control-prev" type="button"
+            data-bs-target="#carruselTecnologias" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button"
+            data-bs-target="#carruselTecnologias" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</section>
