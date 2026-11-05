@@ -72,10 +72,3 @@ Los archivos generados se guardan en `dist/`.
 
 Los componentes utilizan la nomenclatura sin el sufijo `component` y la organización standalone.
 
-## Recursos pendientes
-
-La versión subida desde el ZIP no incluye las imágenes referenciadas por las pantallas. Para completar esos recursos, agrega en `src/assets/img/` los archivos `profile.png`, `node.png`, `typescript.png`, `angular.png` y `npm.png`.
-
-## Repositorio y entrega
-
-La rama de entrega es **master**. El repositorio es público y el historial registra la carga de la configuración, los recursos y las pantallas. En Teams se debe colocar únicamente el enlace del repositorio, según la indicación del docente.
