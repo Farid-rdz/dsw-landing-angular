@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class PerfilScreen {
   perfil = {
-    nombre: 'Nombre Apellido Apellido',
-    email: 'correo@ejemplo.com',
-    telefono: '222 000 0000',
+    nombre: 'Sandro Farid Díaz Rodríguez',
+    email: 'sandro@ejemplo.com',
+    telefono: '222 111 0000',
     direccion: 'Calle, número, colonia, Puebla, Pue.',
-    nacimiento: '01/01/2000'
+    nacimiento: '31/07/2006'
   };
 }
